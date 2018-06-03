@@ -16,7 +16,7 @@ namespace KMLab1
 
         public int getTaskNumber()
         {
-            return taskNumber;
+            return taskNumber ; 
         }
 
         public Task(int taskNumber, int solutionTime)

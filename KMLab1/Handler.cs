@@ -13,7 +13,7 @@ namespace KMLab1
         double dispersionRR;
         double relaxationTimeRR;
         double ratioRR;
-        double currencyRR;
+        double currencyRR; 
         double[,] Time = new double[2, 32];
 
         public Handler(int[,] edges,int[] solutionTime, int processors)

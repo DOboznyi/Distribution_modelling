@@ -107,12 +107,12 @@ namespace KMLab1
                         {
                             if (tasks.ElementAt(j).getDone() != true) {
                                 found = false;
-                                break;
+                                break; 
                             }
                             if (modelTime < (edges[j, i] + tasks.ElementAt(j).getEndTime()))
                             {
                                 found = false;
-                                break;
+                                break; 
                             }
                         }
                     }

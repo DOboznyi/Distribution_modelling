@@ -13,7 +13,7 @@ namespace KMLab1
         bool free;
         public Processor() {
             free = true;
-        }
+        } 
 
         public void setTask(int taskNumber, int endTime) {
             this.endTime = endTime;
